@@ -1,0 +1,32 @@
+body {
+ background-image: url("https://www.thisiscolossal.com/wp-content/uploads/2018/04/agif1opt.gif");
+}
+
+h1{
+ text-align:center
+}
+.center {
+  margin: auto;
+  width: 30%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+margin-top:10%;
+background-color: white;
+}
+form label{
+float: left;
+clear: left;
+width: 100px;
+text-align: right;
+margin-right: 10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+form  input, select {
+margin-bottom: 10px;
+}
+[type="submit"] {
+margin: 20px 0 0 230px;
+font-size:18px
+margin-left:50px;
+}

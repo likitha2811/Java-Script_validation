@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title> Registration page with javascript validation</title>
+  <link rel='stylesheet' href='register_js_page.css' type='text/css' />
+  <script src="registration_js_page.js"></script>
+</head>
+<body onload="document.register.uname.focus();">
+ <form name='register' onSubmit="return formValidate();">
+ <div class="center">
+ <h1>Registration page</h1>
+ <label for="uname" id="uname">username</label>
+ <input type="text" name="uname" required/><br>
+ <label for="pword" id="pword">password</label>
+ <input type="text" name="pword" size="10" required/><br>
+ <label for="mno" id="mno">mobile no.</label>
+ <input type="text" name="mno" required/><br>
+ <label for="email" id="email">email</label>
+ <input type="text" name="email" required/><br>
+ <label for="gender" id="gender">gender</label>
+ <input type="radio" name="gender" value="female"/>Female
+ <input type="radio" name="gender" value="male"/>Male<br>
+  <label for="dob" name="dob">Date of Birth</label>
+ <input type="text" name="dob" required/>
+ <label for="addr" id="addr" required>address</label>
+ <textarea name="addr" id="addr"></textarea><br><br>
+ <label for="lang" >Languages known</label>
+ <input type="checkbox" name="English" value="English"/>English
+ <input type="checkbox" name="Hindi" value="Hindi"/>Hindi
+ <input type="checkbox" name="Telugu" value="Telugu"/>Telugu
+<input type="checkbox" name="French" value="French"/>French<br>
+<input type="submit" name="submit" value="submit"/>
+ </div>
+ </form>
+</body>
+</html>
